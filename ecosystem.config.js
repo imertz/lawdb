@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'lawdb',
-    script: './tools/srcServer.js'
+    script: './index.js'
   }],
   deploy: {
     production: {
