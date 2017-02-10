@@ -27,7 +27,8 @@
   "homepage": "https://github.com/imertz/lawdb#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "mongoose": "^4.7.8"
+    "mongoose": "^4.7.8",
+    "serve-favicon": "^2.3.2"
   },
   "devDependencies": {
     "pm2": "^2.2.3"
