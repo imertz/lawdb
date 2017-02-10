@@ -26,11 +26,23 @@
   },
   "homepage": "https://github.com/imertz/lawdb#readme",
   "dependencies": {
-    "express": "^4.14.0",
-    "mongoose": "^4.7.8",
+     "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.16.0",
+    "crypto": "^0.0.3",
+    "express": "^4.14.1",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.8.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
     "serve-favicon": "^2.3.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.22.0",
     "pm2": "^2.2.3"
   }
 }

@@ -1,7 +1,8 @@
 module.exports = {
   apps: [{
     name: 'lawdb',
-    script: './server.js'
+    script: './app.js',
+    interpreter: 'babel-node'
   }],
   deploy: {
     production: {
