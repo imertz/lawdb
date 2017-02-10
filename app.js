@@ -17,7 +17,7 @@ mongoose.connect(config.database);
 
 
 let app = express()
-let port = 3004;
+let port = 8000;
 
 
 app.use(bodyParser.urlencoded({extended:false}))
@@ -26,7 +26,7 @@ app.use(bodyParser.json())
 
 app.use(passport.initialize())
 
-passport.use(jwtLogin);  
+passport.use(jwtLogin);
 passport.use(localLogin);
 
 
